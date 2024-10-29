@@ -1,4 +1,4 @@
-
+/* css for index.html */
 
 nav > ul > li{
     display: inline;
@@ -6,4 +6,10 @@ nav > ul > li{
 }
 ul li >a{
     text-decoration: none;
+}
+
+/* css for form.html */
+label{
+    display:block;
+    margin-bottom: 10px;
 }
