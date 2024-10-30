@@ -13,3 +13,14 @@ label{
     display:block;
     margin-bottom: 10px;
 }
+
+/* CSS for Table */
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border:2px solid;
+    padding: 5px 10px;
+}
