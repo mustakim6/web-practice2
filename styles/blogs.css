@@ -1,8 +1,19 @@
-/* css for index.html */
-
-nav > ul > li{
-    display: inline;
-    margin-right: 10px;
+/* css for index.html (nav-bar) */
+nav{
+    border:3px solid red;
+    
+}
+nav > ul {
+    display: flex;   
+}
+nav>ul li{
+    list-style: none;
+    margin-left: 6px;
+    padding: 6px;
+}
+nav ul li:hover{
+    background-color: rgb(149, 210, 210);
+    
 }
 ul li >a{
     text-decoration: none;
@@ -23,4 +34,16 @@ table{
 td,th{
     border:2px solid;
     padding: 5px 10px;
+}
+
+/* css for dropdown */
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: beige;
+    padding: 5px;
+}
+
+nav li:hover .dropdown{
+    display: block;
 }
